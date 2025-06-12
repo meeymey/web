@@ -1,0 +1,110 @@
+body
+{
+     background:#7C2222;
+     font-family:Arial Black;
+     font-size:12px;
+     width:1200px;
+     margin:auto;
+}
+
+/*Estilo para la imagen arriba*/
+#logo
+{
+      background:url(ima/logo4.png)no-repeat right;
+      margin:0 auto 0 auto;
+      background-size:50%;
+      padding:20em 0em 0em 0em;
+      text-transform:uppercase;
+}
+
+/*Estilo para la etiqueta a incluida H1*/
+#logo h1 a
+{
+
+      margin:0em;
+      padding:0em 0em 0em 0em;
+      letter-spacing:-.1em;
+      text-decoration:none;
+      font-size:2em;
+      font-weigh:bold;
+      color:#ffffff;
+}
+
+/*Estilo para el subtitulo "BIENVENIDOS A NUESTRO SITIO WEB"*/
+{  
+      padding:0em;
+      margin-top:-1em;
+      font-size:1.5em;
+      color:#BDF2FF;
+}
+
+/*Menu*/
+#menu li
+{ 
+      display:inline-block;
+}
+
+#menu a
+{
+      display:block;
+      float:left;
+      margin-right:0.12em;
+      padding:1em 1.5em;
+      background:#178EAE;
+      box-shadow:inset 0px-2px 0px 0px rgba(0,0,0,0.25)
+      text-decoration:none;
+      text-shadow:1px 1px 0px #0C749C;
+      text-transform:uppercase;
+      fon-size:.90em;
+      color:#FFFFFF;
+}
+
+/*Estilo para la seccion que muestra el contendor*/
+#seccion
+{
+
+      width:1150px;
+      padding:20px 40px;
+      background:#D06A6A; /*para cambiar donde va el texto*/
+      height:290px;
+}
+
+/*Estilo para la imagen que se encuentra dentro de la seccion*/
+#imagen
+{
+      margin-top:2em;
+      width:330px;
+      height:250px;
+      text-aling:center;
+ }
+
+/*Estlo para el titulo dentro de la seccion*/
+#subtitulo2
+{     
+      font-family:Tahoma,Geneva,sans-serif;
+      font-size:25px;
+      color:#039
+}
+
+/*Estilo para el texto del lado derecho*/
+#ladoderecho
+{
+      margin:-5px 20px 0px 0px;
+      float:right;
+      width:65%;
+      text-align:justify;
+      color:#666;
+}
+
+/*Estilo para el pie del documento*/
+#pie
+{
+       text-align:center;
+}
+
+/*Estilo para todos los parrafos del documento*/
+p
+{ 
+        font-family:Comic Sans MS;
+        font-size:11pt;
+}     
